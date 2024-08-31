@@ -1,11 +1,28 @@
 {
-  "name": "template-11ty",
-  "version": "0.1.0",
-  "description": "静的webサイトの制作用テンプレート",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "author": "Yusaku SATO",
-  "license": "MIT"
+	"name": "template-11ty",
+	"version": "0.1.0",
+	"description": "静的webサイトの制作用テンプレート",
+	"main": "index.js",
+	"author": "Yusaku SATO",
+	"license": "MIT",
+	"scripts": {
+		"dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve --incremental --quiet",
+		"build": "npm run build:eleventy",
+		"build:eleventy": "ELEVENTY_ENV=production npx @11ty/eleventy --quiet",
+		"co": "npm run commit",
+		"commit": "cz"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^3.0.0-beta.1",
+		"commitizen": "^4.3.0",
+		"cz-conventional-changelog": "^3.3.0"
+	},
+	"volta": {
+		"node": "22.7.0"
+	}
 }
