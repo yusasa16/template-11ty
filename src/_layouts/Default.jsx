@@ -14,6 +14,7 @@ export default function render({ children, title }) {
 						content="width=device-width, initial-scale=1"
 					/>
 					<title>{title}</title>
+					<link rel="stylesheet" href="/css/style.css" />
 				</head>
 				<body>
 					<Header />
