@@ -1,0 +1,11 @@
+{
+  "name": "template-11ty",
+  "version": "0.1.0",
+  "description": "静的webサイトの制作用テンプレート",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Yusaku SATO",
+  "license": "MIT"
+}
