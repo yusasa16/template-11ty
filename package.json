@@ -19,6 +19,7 @@
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
+		"@rollup/plugin-terser": "^0.4.4",
 		"commitizen": "^4.3.0",
 		"cssnano": "^7.0.5",
 		"cz-conventional-changelog": "^3.3.0",
@@ -26,6 +27,7 @@
 		"eleventy-plugin-static-jsx": "^1.0.8",
 		"postcss": "^8.4.41",
 		"postcss-import": "^16.1.0",
+		"rollup": "^4.21.2",
 		"static-jsx": "^1.0.1"
 	},
 	"volta": {

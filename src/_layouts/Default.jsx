@@ -15,6 +15,7 @@ export default function render({ children, title }) {
 					/>
 					<title>{title}</title>
 					<link rel="stylesheet" href="/css/style.css" />
+					<script src="/js/script.js" defer></script>
 				</head>
 				<body>
 					<Header />
