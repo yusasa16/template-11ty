@@ -20,6 +20,9 @@
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
 		"@rollup/plugin-terser": "^0.4.4",
+		"@rollup/plugin-typescript": "^11.1.6",
+		"@tsconfig/node-lts": "^20.1.3",
+		"@tsconfig/recommended": "^1.0.7",
 		"commitizen": "^4.3.0",
 		"cssnano": "^7.0.5",
 		"cz-conventional-changelog": "^3.3.0",
@@ -28,7 +31,9 @@
 		"postcss": "^8.4.41",
 		"postcss-import": "^16.1.0",
 		"rollup": "^4.21.2",
-		"static-jsx": "^1.0.1"
+		"static-jsx": "^1.0.1",
+		"tslib": "^2.7.0",
+		"typescript": "^5.5.4"
 	},
 	"volta": {
 		"node": "22.7.0"

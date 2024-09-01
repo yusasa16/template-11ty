@@ -1,5 +1,5 @@
 export function addButton() {
-	const button = document.querySelector(".add-button");
+	const button = document.querySelector<HTMLButtonElement>(".add-button");
 	let number = 0;
 
 	button?.addEventListener("click", () => {

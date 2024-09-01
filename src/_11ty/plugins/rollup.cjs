@@ -24,6 +24,7 @@ module.exports = (eleventyConfig) => {
 			);
 
 			const bundle = await rollup({
+				...rollupOptions.input,
 				input: inputPath,
 			});
 
@@ -36,4 +37,6 @@ module.exports = (eleventyConfig) => {
 
 	eleventyConfig.addTemplateFormats("js");
 	eleventyConfig.addExtension("js", extensionConfig);
+	eleventyConfig.addTemplateFormats("ts");
+	eleventyConfig.addExtension("ts", extensionConfig);
 };
